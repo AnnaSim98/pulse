@@ -18,7 +18,19 @@
             margin-bottom: 20px;
         }
     }
+    .error {
+        border: 1px solid $main-color;
+    }
+    label.error {
+        border:none;
+        text-align: center;
+        margin-bottom: 15px;
+    }
     &_mt25px {
         margin-top: 25px;
     }
+}
+
+#consultation-form label.error {
+    color: #ffffff;
 }
