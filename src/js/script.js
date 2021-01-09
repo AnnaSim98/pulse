@@ -106,6 +106,9 @@ $(document).ready(function() {
         return false;
     });
 
-    new WOW().init();
-    
+});
+
+$(window).on('load', function(){
+
+    new WOW().init(); 
 });
